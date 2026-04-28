@@ -2,46 +2,94 @@
 <html>
 <head>
   <title>Digital Shaadi Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <style>
     body {
       margin: 0;
-      font-family: Arial;
-      background: linear-gradient(to right, #ff758c, #ff7eb3);
-      color: white;
+      font-family: 'Georgia', serif;
+      background: #0f0f0f;
+      color: #fff;
       text-align: center;
     }
+
     .container {
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
+
     h1 {
-      font-size: 2.5em;
+      font-size: 2.8em;
+      color: gold;
+      margin-bottom: 10px;
     }
-    p {
+
+    .subtitle {
       font-size: 1.2em;
-      margin: 10px 0;
+      color: #ccc;
+      margin-bottom: 30px;
     }
+
+    .features {
+      margin: 30px 0;
+      line-height: 2;
+      font-size: 1.1em;
+    }
+
+    .card-box {
+      border: 1px solid rgba(255,215,0,0.2);
+      border-radius: 15px;
+      padding: 30px;
+      background: rgba(255,255,255,0.02);
+      backdrop-filter: blur(10px);
+      margin: 20px;
+    }
+
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: white;
-      color: #ff4d6d;
+      margin-top: 25px;
+      padding: 14px 35px;
+      background: gold;
+      color: black;
       font-weight: bold;
-      border-radius: 25px;
+      border-radius: 30px;
       text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    .btn:hover {
+      background: #ffd700;
+    }
+
+    .price {
+      margin-top: 10px;
+      font-size: 1.3em;
+      color: gold;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>💍 Digital Shaadi Card</h1>
-    <p>Sirf ₹299 mein apna digital invite banao</p>
-    <p>✔ WhatsApp sharing</p>
-    <p>✔ Countdown timer</p>
-    <p>✔ Music & photos</p>
 
-    <a class="btn" href="https://wa.me/917700948085">Order on WhatsApp</a>
+  <div class="container">
+    
+    <h1>💍 Digital Shaadi Card</h1>
+    <div class="subtitle">Elegant Digital Invitations for Your Special Day</div>
+
+    <div class="card-box">
+      <div class="price">Only ₹299</div>
+
+      <div class="features">
+        ✨ Premium design<br>
+        📱 Share on WhatsApp<br>
+        ⏳ Countdown timer<br>
+        🎵 Music & photos<br>
+        📍 Google Maps location
+      </div>
+
+      <a class="btn" href="https://wa.me/917700948085">Order Now</a>
+    </div>
+
   </div>
+
 </body>
 </html>
